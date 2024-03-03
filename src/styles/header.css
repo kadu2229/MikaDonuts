@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
   display: flex;
   width: 100%;
-  background-color: rgb(255, 231, 236);
+  background-color: rgba(247,224,232,255);
 }
 
 #logo {
@@ -29,6 +30,8 @@
 
 .headerLinks {
   color: white;
+  text-decoration: none;
+  cursor: pointer;
   padding: 10px ;
   margin: 0 3px;
   border-radius: 5px;
@@ -37,7 +40,7 @@
   transition: 0.3s;
 }
 
-.headerLinks:active {
+.headerLinks:hover {
   background-color: transparent;
   border: 1px solid;
   color: purple;
